@@ -1,0 +1,7 @@
+{% set p = salt['pillar.get']('nginx', {}) %}
+
+{% set mirror = p.get('mirror', 'qamirror.qa.snagajob.corp') %}
+
+{% set nginx = {
+    'mirror': mirror,
+    } %}

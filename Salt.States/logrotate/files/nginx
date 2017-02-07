@@ -1,0 +1,19 @@
+/var/log/nginx/*.log {
+        daily
+        missingok
+        rotate 1
+        compress
+        notifempty
+        create 0640 www-data adm
+        sharedscripts
+        prerotate
+                if [ -d /etc/logrotate.d/httpd-prerotate ]; then \
+                        run-parts /etc/logrotate.d/httpd-prerotate; \
+                fi
+        endscript
+        postrotate
+                [ -s /run/nginx.pid ] && kill -USR1 `cat /run/nginx.pid`; \
+                [ -s /opt/datadog-agent/run/ngxdog.pid ] && kill `cat /opt/datadog-agent/run/ngxdog.pid`; \
+                [ -s /run/filebeat.pid ] && service filebeat restart
+        endscript
+}

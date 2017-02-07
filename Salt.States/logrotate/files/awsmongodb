@@ -1,0 +1,13 @@
+/logs/*/*.log /logs/*.log {
+    daily
+    rotate 7
+    compress
+    delaycompress
+    dateext
+    missingok
+    notifempty
+    sharedscripts
+    postrotate
+        /bin/kill -SIGUSR1 `cat /db/data/27017/pid.txt 2> /dev/null` 2> /dev/null || true
+    endscript
+}

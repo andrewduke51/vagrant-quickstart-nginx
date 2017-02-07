@@ -1,0 +1,12 @@
+{%- set pkgs = salt['grains.filter_by']({
+    'Debian': {
+        'name': 'logrotate',
+    },
+    'RedHat': {
+        'name': 'logrotate',
+    },
+}) %}
+
+{%- set logrotate = {
+    'name': pkgs.name,
+    } %}
