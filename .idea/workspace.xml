@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70b8b9-ff19-46dc-abef-2c40bf8cfce2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/apt/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/buildouts/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/cloudbuild/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/deploy.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/diamond.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/mirror.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/mongo/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/ntp/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/php/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/pypi.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/salt/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/snaplogic/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/splunk.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/techtalk/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/yum/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/zabbix/init.sls" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Salt.Pillars" afterPath="$PROJECT_DIR$/Salt.Pillars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Salt.Pillars/top.sls" afterPath="$PROJECT_DIR$/Salt.Pillars/top.sls" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,18 +30,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top.sls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Salt.Pillars/top.sls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -129,22 +97,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="salt-local" />
+              <option name="myItemId" value="vagrant-quickstart-nginx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="salt-local" />
+              <option name="myItemId" value="vagrant-quickstart-nginx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,7 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,7 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -418,7 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,56 +387,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backups/nginx.sls" />
-    <entry file="file://$PROJECT_DIR$/backups/nginx/map.jinja">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/nginx/map.jinja" />
     <entry file="file://$PROJECT_DIR$/salt/nginx.init-new/base.sls" />
     <entry file="file://$PROJECT_DIR$/Salt.States/states" />
-    <entry file="file://$PROJECT_DIR$/backups/nginx/files/dodepoy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/map.jinja">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/nginx/files/dodepoy.sh" />
+    <entry file="file://$PROJECT_DIR$/backups/nginx/map.jinja" />
     <entry file="file://$PROJECT_DIR$/vagrant-salt/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/pagespeed.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/openresty.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/nginx/pagespeed.sls" />
+    <entry file="file://$PROJECT_DIR$/backups/nginx/openresty.sls" />
     <entry file="file://$PROJECT_DIR$/Salt.States/nginx/files/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -484,20 +413,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/nginx" />
-    <entry file="file://$PROJECT_DIR$/backups/nginx/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/remove_nginx_be_careful.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/nginx/init.sls" />
+    <entry file="file://$PROJECT_DIR$/backups/nginx/remove_nginx_be_careful.sls" />
     <entry file="file://$PROJECT_DIR$/backups/nginx.sls" />
     <entry file="file://$PROJECT_DIR$/Salt.States/nginx/files/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -517,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,103 +455,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.Pillars/.github/PULL_REQUEST_TEMPLATE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Salt.Pillars/.github/PULL_REQUEST_TEMPLATE.md" />
     <entry file="file://$PROJECT_DIR$/Salt.States/nginx/files/nginx.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.Pillars/apt/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.Pillars/yum/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.Pillars/nginx/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/awsmongodb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/diamond">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/logrotate">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/mongodb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/awsmongo.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/diamond.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Salt.Pillars/apt/init.sls" />
+    <entry file="file://$PROJECT_DIR$/Salt.Pillars/yum/init.sls" />
+    <entry file="file://$PROJECT_DIR$/Salt.Pillars/nginx/init.sls" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/awsmongodb" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/diamond" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/logrotate" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/mongodb" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/awsmongo.sls" />
+    <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/diamond.sls" />
     <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/files/nginx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,31 +493,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/files/deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backups/nginx/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backups/nginx/files/deploy.sh" />
+    <entry file="file://$PROJECT_DIR$/backups/nginx/README.md" />
     <entry file="file://$PROJECT_DIR$/Salt.States/logrotate/nginx.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,18 +520,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Salt.Pillars/top.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Salt.Pillars/top.sls" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
