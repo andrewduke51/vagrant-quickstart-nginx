@@ -1,2 +1,2 @@
-.vagrant
-.vagrant-salt
+.vagrant/*
+.vagrant-salt/*
