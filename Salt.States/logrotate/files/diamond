@@ -1,7 +1,0 @@
-/var/log/diamond/*.log {
-        daily
-        missingok
-        rotate 0
-        compress
-        notifempty
-}

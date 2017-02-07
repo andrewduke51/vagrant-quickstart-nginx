@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "Salt.Pillars/", "/srv/pillars/"
 
   config.vm.provision :salt do |salt|
-    salt.minion_config = "files/minion"
+    salt.minion_config = "etc/minion"
     salt.run_highstate = true
     salt.colorize = true
     salt.log_level = 'info'
