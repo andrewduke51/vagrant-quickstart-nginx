@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70b8b9-ff19-46dc-abef-2c40bf8cfce2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Salt.States/nginx/files/deploy.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Salt.States/nginx/files/dodepoy.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/awsmongo.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/cronadjust.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/diamond.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/files/awsmongodb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/files/diamond" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/files/logrotate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/files/mongodb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.States/logrotate/mongo.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/init.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/map.jinja" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/openresty.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/pagespeed.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backups/nginx/remove_nginx_be_careful.sls" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/backups/nginx/files/deploy.sh" afterPath="$PROJECT_DIR$/Salt.States/nginx/files/deploy.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/backups/nginx/files/dodepoy.sh" afterPath="$PROJECT_DIR$/Salt.States/nginx/files/dodepoy.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/files/minion" afterPath="$PROJECT_DIR$/etc/minion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Salt.Pillars" afterPath="$PROJECT_DIR$/Salt.Pillars" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/apt/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/buildouts/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/cloudbuild/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/deploy.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/diamond.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/mirror.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/mongo/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/ntp/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/php/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/pypi.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/salt/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/snaplogic/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/splunk.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/techtalk/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/yum/init.sls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Salt.Pillars/zabbix/init.sls" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Salt.Pillars/top.sls" afterPath="$PROJECT_DIR$/Salt.Pillars/top.sls" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,11 +86,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="23" />
+    <option name="x" value="-1872" />
+    <option name="y" value="-60" />
     <option name="width" value="1793" />
     <option name="height" value="995" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -125,20 +119,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="salt-local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="salt-local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Salt.States" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -147,6 +127,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -317,12 +298,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="23" width="1793" height="995" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1872" y="-60" width="1793" height="995" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15914221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15914221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10963455" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -455,6 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
